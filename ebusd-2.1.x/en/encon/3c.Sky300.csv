@@ -50,7 +50,7 @@ r,,FrostStatus,FrostStatus,,,4022,16,,,UIR,0=Initializing;1=NoFrost;17=NoFrost;2
 r,,FanStatus,FanStatus,,,4022,11,,,UIR,0=Initializing;1=ConstantFlow;2=ConstantPWM;3=Off;4=Error;5=MassBalance;6=Standby;7=ConstantRPM,,
 r,,InsideTemperature,InsideTemperature,,,4022,07,,,SIR,10,°C,
 r,,OutsideTemperature,OutsideTemperature,,,4022,08,,,SIR,10,°C,
-r,,OptionTemperature,OptionTemperature,,,4022,1a,,,SIR,10,°C,
+# r,,OptionTemperature,OptionTemperature,,,4022,1a,,,SIR,10,°C,
 r,,FilterNotification,FilterStatus,,,4022,18,,,UIR,0=Clean;1=Dirty,,
 # r,,RelativeHumidity,RelativeHumidity,,,4022,20,,,SIR,10,%,
 # r,,HumidityBoostState,HumidityBoostState,,,4022,21,,,UIR,0=Error;1=NotInitialized;2=SensorNotActive;3=PowerUpDelay;4=NormalRH;5=BoostRising;6=BoostStable;7=BoostDecending;8=BoostRHLowLevelStable,,
